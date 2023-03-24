@@ -14,8 +14,6 @@ In this guide, we will provide a comprehensive overview of the most essential re
 
 This regex is used to validate email addresses.
 
-<br>
-
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -28,47 +26,31 @@ This regex is used to validate email addresses.
 - [Character Escapes](#character-escapes)
 - [Credits](#credits)
 
-<br>
-
 ## Regex Components
-
-<br>
 
 ### Anchors
 
 Anchors are used to match a position rather than a character. They are used to specify the start or end of a line or a word. Examples of anchors are `^` which matches the start of a line, `$` which matches the end of a line, and `\b` which matches a word boundary.
 
-<br>
-
 ### Quantifiers
 
 Quantifiers are used to specify the number of times a character or a group of characters should be repeated. Examples of quantifiers are `*` which matches zero or more times, `+` which matches one or more times, `?` which matches zero or one time, and `{n}` which matches exactly n times.
-
-<br>
 
 ### Grouping Constructs
 
 Grouping constructs are used to group patterns together and apply quantifiers to them. They are enclosed in parentheses `()` and can be nested. Examples of grouping constructs are `(abc)+` which matches the pattern abc one or more times, and `(ab|cd)` which matches either `ab` or `cd`.
 
-<br>
-
 ### Bracket Expressions
 
 Bracket expressions, also known as character sets, are used to match a single character from a set of characters. They are enclosed in square brackets `[]`. Examples of bracket expressions are `[abc]` which matches either `a`, `b`, or `c`, and `[0-9]` which matches any digit.
-
-<br>
 
 ### Character Classes
 
 Character classes are shorthand representations of commonly used bracket expressions. Examples of character classes are `\d` which matches any digit, `\s` which matches any whitespace character, and `\w` which matches any word character.
 
-<br>
-
 ### The OR Operator
 
 The OR operator, denoted by the `|` character, matches either the pattern on the left or the pattern on the right. Examples of the OR operator are `(abc|def)` which matches either `abc` or `def`, and `[a-z]|[A-Z]` which matches any lowercase or uppercase letter.
-
-<br>
 
 ### Flags
 
@@ -86,8 +68,6 @@ Flags modify how the regex engine treats the input string. Some commonly used fl
 
 You can add flags to the end of the regex expression, such as `/pattern/gi`.`
 
-<br>
-
 ### Character Escapes
 
 Character escapes allow you to match special characters like newlines or tabs. They are denoted by a backslash followed by a special character. Some commonly used character escapes include:
@@ -103,8 +83,6 @@ Character escapes allow you to match special characters like newlines or tabs. T
 <br>
 
 For example, to match a string containing a newline character, you could use the regex /hello\nworld/.
-
-<br>
 
 ## Credits
 
