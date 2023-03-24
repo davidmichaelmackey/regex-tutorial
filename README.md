@@ -17,7 +17,7 @@ This regex is used to validate email addresses.
 5. `.` - This matches the period that separates the domain name from the top-level domain (TLD).
 6. `([a-z.]{2,6})$/` - This matches the TLD, which consists of two to six lowercase letters or dots. The parentheses around this part capture the TLD as a group. The `$` at the end of the regex ensures that the match ends at the end of the string.
 
-So, overall, this regex matches an email address that consists of a username, followed by an @ symbol, a domain name, a period, and a TLD.
+So, overall, this regex matches an email address that consists of a username, followed by an `@` symbol, a domain name, a period, and a TLD.
 
 ## Table of Contents
 
