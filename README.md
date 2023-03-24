@@ -66,7 +66,7 @@ Flags modify how the regex engine treats the input string. Some commonly used fl
 
 <br>
 
-You can add flags to the end of the regex expression, such as `/pattern/gi`.`
+You can add flags to the end of the regex expression, such as `/pattern/gi`.
 
 ### Character Escapes
 
