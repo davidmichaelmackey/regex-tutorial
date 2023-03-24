@@ -6,15 +6,9 @@ Regular Expressions, also known as regex, is a powerful tool for searching and m
 
 In this guide, we will provide a comprehensive overview of the most essential regex components and explain how they work. We will cover anchors, quantifiers, grouping constructs, bracket expressions, character classes, the OR operator, flags, and character escapes. Here is an example of a regex that we will be describing:
 
-<br>
-
 `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
-<br>
-
 This regex is used to validate email addresses.
-
-<br>
 
 1. `/^` - This denotes the start of the regular expression and ensures that the match starts at the beginning of the string.
 2. `([a-z0-9_.-]+)` - This matches the username part of the email address, which consists of one or more lowercase letters, numbers, underscores, dots, or hyphens. The parentheses around this part capture the username as a group.
@@ -22,8 +16,6 @@ This regex is used to validate email addresses.
 4. `([\da-z.-]+)` - This matches the domain name, which consists of one or more lowercase letters, numbers, dots, or hyphens. The `[\da-z.-]` part is a character set that matches digits, lowercase letters, dots, and hyphens. The parentheses around this part capture the domain name as a group.
 5. `.` - This matches the period that separates the domain name from the top-level domain (TLD).
 6. `([a-z.]{2,6})$/` - This matches the TLD, which consists of two to six lowercase letters or dots. The parentheses around this part capture the TLD as a group. The `$` at the end of the regex ensures that the match ends at the end of the string.
-
-<br>
 
 So, overall, this regex matches an email address that consists of a username, followed by an @ symbol, a domain name, a period, and a TLD.
 
