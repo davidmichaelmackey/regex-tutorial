@@ -30,6 +30,7 @@ So, overall, this regex matches an email address that consists of a username, fo
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
 - [Credits](#credits)
+- [Questions](#questions)
 
 ## Regex Components
 
@@ -87,3 +88,9 @@ For example, to match a string containing a newline character, you could use the
 :email: [Email](mailto:davidmackey@hey.com)<br>
 :octocat: [GitHub](https://github.com/davidmichaelmackey/)<br>
 :briefcase: [Linkedin](https://linkedin.com/in/davidmichaelmackey/)<br>
+
+## Questions
+
+Have Questions?
+<br>
+Feel free send me an [email](mailto:davidmackey@hey.com) or reach out to me on [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
