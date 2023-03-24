@@ -69,8 +69,6 @@ The OR operator, denoted by the `|` character, matches either the pattern on the
 
 Flags modify how the regex engine treats the input string. Some commonly used flags include:
 
-<br>
-
 `g`: global flag to match all occurrences of the pattern<br>
 `i`: case-insensitive matching<br>
 `m`: multi-line matching<br>
@@ -82,8 +80,6 @@ You can add flags to the end of the regex expression, such as `/pattern/gi`.
 ### Character Escapes
 
 Character escapes allow you to match special characters like newlines or tabs. They are denoted by a backslash followed by a special character. Some commonly used character escapes include:
-
-<br>
 
 `\n`: matches a newline character<br>
 `\t`: matches a tab character<br>
