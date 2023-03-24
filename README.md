@@ -2,8 +2,6 @@
 
 Regular Expressions, also known as regex, is a powerful tool for searching and manipulating text. In this guide, we will provide a comprehensive overview of the most essential regex components and explain how they work. We will cover anchors, quantifiers, grouping constructs, bracket expressions, character classes, the OR operator, flags, and character escapes. By the end of this guide, you should have a solid understanding of regex and be able to apply it to your own projects.
 
-<br>
-
 ## Summary
 
 In this guide, we will provide a comprehensive overview of the most essential regex components and explain how they work. We will cover anchors, quantifiers, grouping constructs, bracket expressions, character classes, the OR operator, flags, and character escapes. Here is an example of a regex that we will be describing:
