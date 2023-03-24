@@ -91,6 +91,4 @@ For example, to match a string containing a newline character, you could use the
 
 ## Questions
 
-Have Questions?
-<br>
-Feel free send me an [email](mailto:davidmackey@hey.com) or reach out to me on [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
+Have Questions? Feel free send me an [email](mailto:davidmackey@hey.com) or reach out to me on [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
