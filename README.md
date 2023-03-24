@@ -71,13 +71,11 @@ Flags modify how the regex engine treats the input string. Some commonly used fl
 
 <br>
 
-`g`: global flag to match all occurrences of the pattern
-`i`: case-insensitive matching
-`m`: multi-line matching
-`u`: enables full Unicode support
-`y`: sticky matching that starts at the last matched position in the input string
-
-<br>
+`g`: global flag to match all occurrences of the pattern<br>
+`i`: case-insensitive matching<br>
+`m`: multi-line matching<br>
+`u`: enables full Unicode support<br>
+`y`: sticky matching that starts at the last matched position in the input string<br>
 
 You can add flags to the end of the regex expression, such as `/pattern/gi`.
 
@@ -87,13 +85,11 @@ Character escapes allow you to match special characters like newlines or tabs. T
 
 <br>
 
-`\n`: matches a newline character
-`\t`: matches a tab character
-`\d`: matches any digit character (0-9)
-`\w`: matches any word character (a-z, A-Z, 0-9, or \_)
-`\s`: matches any whitespace character (space, tab, newline, etc.)
-
-<br>
+`\n`: matches a newline character<br>
+`\t`: matches a tab character<br>
+`\d`: matches any digit character (0-9)<br>
+`\w`: matches any word character (a-z, A-Z, 0-9, or \_)<br>
+`\s`: matches any whitespace character (space, tab, newline, etc.)<br>
 
 For example, to match a string containing a newline character, you could use the regex /hello\nworld/.
 
